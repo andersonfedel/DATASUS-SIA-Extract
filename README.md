@@ -5,4 +5,5 @@ Não será necessário instalar qualquer programa ou biblioteca na máquina loca
 Será necessário apenas logar a uma conta Google e montar o Google Drive no Notebook.
 Os arquivos DATASUS são disponibilzados no formato .DBC, proprietário do Ministério da Saúde. 
 Este notebook converterá os arquivos .DBC selecionados em arquivos .parquet .
-Também é possível consumir os dados desejados no próprio Notebook, no formato Pandas Dataframe.  
+O código usa como base a biblioteca PySUS, que é a reponsável por fazer a conversão de .DBC para Pandas DataFrame.
+Assim, também é possível consumir os dados desejados como dataframe no próprio Notebook.
